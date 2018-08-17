@@ -1,14 +1,13 @@
 {
   "presets": [
+    "env",
     "react",
-    [ "env", {
-      "targets": {
-        "browsers": "> 2%"
-      }
-    }]
+    "es2015",
+    "stage-0"
   ],
 
   "plugins": [
-    "react-hot-loader/babel"
+    "react-hot-loader/babel",
+    "transform-object-rest-spread"
   ]
 }
